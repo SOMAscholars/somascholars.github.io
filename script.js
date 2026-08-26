@@ -188,11 +188,10 @@
      TEAM
      --------------------------------------------------------- */
   const teamGrid = document.getElementById("team-grid");
-  const sizeCycle = ["member--lg", "", "member--sm", "", "member--lg", "", "member--sm", ""];
 
   function buildTeam() {
-    teamGrid.innerHTML = TEAM.map((m, i) => `
-      <div class="member ${sizeCycle[i % sizeCycle.length]}">
+    teamGrid.innerHTML = TEAM.map((m) => `
+      <div class="member">
         <div class="member__frame">
           <img src="${m.img}" alt="${m.name}" loading="lazy">
         </div>
