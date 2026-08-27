@@ -2,7 +2,7 @@
   "use strict";
 
   /* ---------------------------------------------------------
-     SUBMIT / VOLUNTEER LINKS
+     SUBMIT / VOLUNTEER LINKS!
      --------------------------------------------------------- */
   document.querySelectorAll("#submit-cta, #volunteer-cta, #nav-submit-link, #nav-submit-link-mobile")
     .forEach((el) => { el.href = SUBMISSION_FORM_URL; });
